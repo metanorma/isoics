@@ -18,7 +18,13 @@ module Isoics
     attr_reader :notes
 
     # @param ics_data [Hash]
-    def initialize(ics_data)
+    def initialize(fieldcode:, groupcode: nil, subgroupcode: nil)
+      file_name = "ics/#{fieldcode.to_s}"
+      file_name << "_#{groupcode}" if groupcode
+      file_name << "_#{subgroupcode}" if subgroupcode 
+      file_name << ".json"
+      ics_data = JSON.parse File.read(file_name), symbolize_names: true
+
       @code, @fieldcode, @groupcode, @subgroupcode, @description,
           @description_full = ics_data.values_at(
         :code, :fieldcode, :groupcode, :subgroupcode, :description, :descriptionFull
