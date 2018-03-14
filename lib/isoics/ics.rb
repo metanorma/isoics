@@ -19,7 +19,7 @@ module Isoics
 
     # @param ics_data [Hash]
     def initialize(fieldcode:, groupcode: nil, subgroupcode: nil)
-      file_name = "ics/#{fieldcode.to_s}"
+      file_name = "#{__dir__}/../../ics/#{fieldcode.to_s}"
       file_name << "_#{groupcode}" if groupcode
       file_name << "_#{subgroupcode}" if subgroupcode 
       file_name << ".json"
