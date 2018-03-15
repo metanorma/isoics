@@ -1,4 +1,3 @@
-
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "isoics/version"
@@ -7,10 +6,9 @@ Gem::Specification.new do |spec|
   spec.name          = "isoics"
   spec.version       = Isoics::VERSION
   spec.authors       = ["Ribose Inc."]
-  spec.email         = ["operations@ribose.com"]
+  spec.email         = ["open.source@ribose.com"]
 
-  spec.summary       = %q{IsoIcs is International Classification for Standards codes reference.}
-  spec.description   = %q{IsoIcs is International Classification for Standards codes reference.}
+  spec.summary       = %q{ISO ICS (International Classification for Standards) data accessible in a convenient package.}
   spec.homepage      = "https://github.com/riboseinc/isoics"
   spec.license       = "MIT"
 
