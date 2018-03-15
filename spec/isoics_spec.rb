@@ -22,4 +22,14 @@ RSpec.describe Isoics do
     expect(ics).to be_instance_of Isoics::ICS
     expect(ics.subgroupcode).to eq "30"
   end
+
+  it "fetch by code" do
+    ics = Isoics.fetch "01.140.30"
+    expect(ics).to be_instance_of Isoics::ICS
+    expect(ics.notes.first.ics).to be_instance_of Isoics::ICS
+  end
+
+  it "raise ArgumentError" do
+    expect { Isoics.fetch }.to raise_exception ArgumentError
+  end
 end

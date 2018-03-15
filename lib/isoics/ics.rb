@@ -7,6 +7,12 @@ module Isoics
     def initialize(note)
       @text, @ics_code = note.values_at(:text, :"ics-code")
     end
+
+    # Fetch referenced ICS.
+    # @return [Isoics::ICS]
+    def ics
+      Isoics.fetch ics_code if ics_code
+    end
   end
 
   class ICS
