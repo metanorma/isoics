@@ -50,8 +50,13 @@ ics.code         # => "01.140.30"
 ics.subgroupcode # => "30"
 
 note = ics.notes.first
-note.text        # => "Technical product documentation, see {ics-code}"
-note.ics_code    # => "01.140.30"
+note.text            # => "Technical product documentation, see {ics-code}"
+note.ics_code        # => "01.110"
+note.ics.description # => "Technical product documentation"
+
+# Fetch by code
+ics = Isoics.fetch "01.140.30"
+ics.description # => "Generalities. Terminology. Standardization. Documentation"
 ----
 
 == Development
