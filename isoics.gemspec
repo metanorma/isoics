@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{ISO ICS (International Classification for Standards) data accessible in a convenient package.}
   spec.homepage      = "https://github.com/riboseinc/isoics"
-  spec.license       = "MIT"
+  spec.license       = "BSD-2-Clause"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
