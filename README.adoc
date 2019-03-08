@@ -1,8 +1,8 @@
 = IsoIcs
 
 image:https://img.shields.io/gem/v/isoics.svg["Gem Version", link="https://rubygems.org/gems/isoics"]
-image:https://img.shields.io/travis/riboseinc/isoics/master.svg["Build Status", link="https://travis-ci.org/riboseinc/isoics"]
-image:https://codeclimate.com/github/riboseinc/isoics/badges/gpa.svg["Code Climate", link="https://codeclimate.com/github/riboseinc/isoics"]
+image:https://img.shields.io/travis/metanorma/isoics/master.svg["Build Status", link="https://travis-ci.com/metanorma/isoics"]
+image:https://codeclimate.com/github/metanorma/isoics/badges/gpa.svg["Code Climate", link="https://codeclimate.com/github/metanorma/isoics"]
 
 IsoIcs is the https://en.wikipedia.org/wiki/International_Classification_for_Standards[International Classification for Standards] codes reference. This gem returns the text and description for a given ICS code.
 
@@ -71,7 +71,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 == Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/riboseinc/isoics.
+Bug reports and pull requests are welcome on GitHub at https://github.com/metanorma/isoics.
 
 == License
 
