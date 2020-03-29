@@ -1,8 +1,9 @@
 = IsoIcs
 
 image:https://img.shields.io/gem/v/isoics.svg["Gem Version", link="https://rubygems.org/gems/isoics"]
-image:https://travis-ci.com/metanorma/isoics.svg["Build Status", link="https://travis-ci.com/metanorma/isoics"]
-image:https://ci.appveyor.com/api/projects/status/kuyrgllpwv0to10k?svg=true["Appveyor Build Status", link="https://ci.appveyor.com/project/metanorma/isoics"]
+image:https://github.com/metanorma/isoics/workflows/ubuntu/badge.svg["Ubuntu Build Status", link="https://github.com/metanorma/isoics/actions?query=workflow%3Aubuntu"]
+image:https://github.com/metanorma/isoics/workflows/macos/badge.svg["OSX Build Status", link="https://github.com/metanorma/isoics/actions?query=workflow%3Amacos"]
+image:https://github.com/metanorma/isoics/workflows/windows/badge.svg["Windows Build Status", link="https://github.com/metanorma/isoics/actions?query=workflow%3Awindows"]
 image:https://codeclimate.com/github/metanorma/isoics/badges/gpa.svg["Code Climate", link="https://codeclimate.com/github/metanorma/isoics"]
 image:https://img.shields.io/github/issues-pr-raw/metanorma/isoics.svg["Pull Requests", link="https://github.com/metanorma/isoics/pulls"]
 image:https://img.shields.io/github/commits-since/metanorma/isoics/latest.svg["Commits since latest",link="https://github.com/metanorma/isoics/releases"]
