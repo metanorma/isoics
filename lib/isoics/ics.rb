@@ -39,7 +39,7 @@ module Isoics
         @notes = ics_data[:notes]&.map { |n| Note.new n }
         @notes ||= []
       else
-        warn "[isoics] code #{code} not found in ICS list"
+        warn "[isoics] code \"#{code}\" not found in ICS list"
         @code = code
         @fieldcode = fieldcode
         @groupcode = groupcode
